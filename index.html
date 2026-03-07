@@ -1,0 +1,520 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>
+      100 Projects · 50 Days — The Real Vanilla JS Challenge by Warano
+    </title>
+    <meta
+      name="description"
+      content="A senior JS developer builds 100 vanilla JavaScript projects in 50 days — no frameworks, no AI. Pure HTML, CSS & JS, fully documented with MDN resources. The anti-vibecoding challenge."
+    />
+    <meta
+      name="keywords"
+      content="vanilla javascript, 100 projects, javascript challenge, learn javascript, html css js, no framework, frontend developer, web development, vibecoding, felix warano"
+    />
+    <meta name="author" content="Félix Warano" />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://100projects.felix-warano.vercel.app/" />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:url"
+      content="https://100projects.felix-warano.vercel.app/"
+    />
+    <meta
+      property="og:title"
+      content="100 Projects · 50 Days — The Real Vanilla JS Challenge"
+    />
+    <meta
+      property="og:description"
+      content="A senior JS dev builds 100 vanilla JS projects in 50 days. No frameworks. No AI. Pure fundamentals, fully documented."
+    />
+    <meta
+      property="og:image"
+      content="https://100projects.felix-warano.vercel.app/assets/og-image.png"
+    />
+    <meta property="og:site_name" content="100 Projects 50 Days — Warano" />
+    <meta property="og:locale" content="en_US" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:url"
+      content="https://100projects.felix-warano.vercel.app/"
+    />
+    <meta
+      name="twitter:title"
+      content="100 Projects · 50 Days — The Real Vanilla JS Challenge"
+    />
+    <meta
+      name="twitter:description"
+      content="A senior JS dev builds 100 vanilla JS projects in 50 days. No frameworks. No AI. Pure fundamentals, fully documented."
+    />
+    <meta
+      name="twitter:image"
+      content="https://100projects.felix-warano.vercel.app/assets/og-image.png"
+    />
+    <meta name="twitter:creator" content="@felixwarano" />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "100 Projects · 50 Days",
+        "url": "https://100projects.felix-warano.vercel.app/",
+        "description": "A senior JS developer builds 100 vanilla JavaScript projects in 50 days — no frameworks, no AI.",
+        "author": {
+          "@type": "Person",
+          "name": "Félix Warano",
+          "url": "https://felix-warano.vercel.app"
+        }
+      }
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,300;12..96,400;12..96,500;12..96,600;12..96,700&family=Space+Mono:ital,wght@0,400;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav>
+      <a href="#top" class="nav-brand">
+        <div class="logo-placeholder">W</div>
+        <span class="nav-title"
+          >100<span>/</span>50 <span class="nav-sub">· Vanilla JS</span></span
+        >
+      </a>
+      <ul class="nav-links">
+        <li><a href="#challenge">Challenge</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#timeline">Timeline</a></li>
+        <li><a href="#faq">FAQ</a></li>
+        <li><a href="#about">About</a></li>
+        <li>
+          <a
+            href="https://felix-warano.vercel.app"
+            target="_blank"
+            rel="noopener"
+            class="nav-portfolio"
+            >Portfolio ↗</a
+          >
+        </li>
+      </ul>
+    </nav>
+
+    <section class="hero" id="top">
+      <div class="hero-dotgrid"></div>
+      <div class="hero-inner">
+        <span class="hero-badge">
+          A FullStack JS Dev launches the challenge</span
+        >
+
+        <h1 class="hero-title">
+          <span class="l1">100 Projects.</span>
+          <span class="l2">50 Days.</span>
+          <span class="l3">HTML · CSS · Vanilla JS — no framework, no AI</span>
+        </h1>
+
+        <p class="hero-sub">
+          Prompting ChatGPT and pasting code is
+          <strong>not developing</strong>.<br />
+          A real dev masters the fundamentals. This challenge proves it.
+        </p>
+
+        <div class="hero-actions">
+          <a href="#projects" class="btn btn-primary">→ View Projects</a>
+          <a
+            href="https://github.com/Warano02/100-projects-50-days-vanilla-js.git"
+            target="_blank"
+            rel="noopener"
+            class="btn btn-ghost"
+            >☆ GitHub</a
+          >
+        </div>
+
+        <div class="hero-stats">
+          <div class="stat-box">
+            <div class="stat-n">100</div>
+            <div class="stat-l">Projects</div>
+          </div>
+          <div class="stat-box">
+            <div class="stat-n">50</div>
+            <div class="stat-l">Days</div>
+          </div>
+          <div class="stat-box">
+            <div class="stat-n">0</div>
+            <div class="stat-l">Frameworks</div>
+          </div>
+        </div>
+
+        <div class="terminal">
+          <div class="term-bar">
+            <div class="dot dr"></div>
+            <div class="dot dy"></div>
+            <div class="dot dg"></div>
+            <span class="term-ttl">bash — ~/100-projects-50-days</span>
+          </div>
+          <div class="term-body">
+            <div class="tl">
+              <span class="tp">~/dev $</span
+              ><span class="tc"
+                >git clone
+                https://github.com/Warano02/100-projects-50-days-vanilla-js.git</span
+              >
+            </div>
+            <div class="tl">
+              <span class="to"
+                >Cloning into '100-projects-50-days-vanilla-js'...</span
+              >
+            </div>
+            <div class="tl">
+              <span class="to"
+                >100 vanilla JS projects · fully documented · zero
+                dependencies</span
+              >
+            </div>
+            <div class="tl mt-gap">
+              <span class="tp">~/dev $</span
+              ><span class="tc">cat rules.md</span>
+            </div>
+            <div class="tl">
+              <span class="tw"
+                >[1] Vanilla JS only — no React, Vue, Angular</span
+              >
+            </div>
+            <div class="tl">
+              <span class="tw"
+                >[2] Native HTML + CSS — no Tailwind, no Bootstrap</span
+              >
+            </div>
+            <div class="tl">
+              <span class="tw">[3] Zero AI for code — 100% handwritten</span>
+            </div>
+            <div class="tl">
+              <span class="tw"
+                >[4] README + MDN resources in every project</span
+              >
+            </div>
+            <div class="tl mt-gap">
+              <span class="tp">~/dev $</span
+              ><span class="tc"><span class="cursor"></span></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="divider"></div>
+    <section class="section" id="challenge">
+      <div class="reveal">
+        <p class="section-label">01 — The finding</p>
+        <h2 class="section-title">Vibecoding<br />vs Real Dev</h2>
+      </div>
+      <div class="versus-grid reveal">
+        <div class="versus-card">
+          <div class="versus-head bad">✗ Vibecoding</div>
+          <ul class="check-list">
+            <li data-icon="⚠">
+              Asking AI to generate everything without understanding what it
+              produces
+            </li>
+            <li data-icon="⚠">
+              Copy-pasting without knowing why it works — or why it breaks
+            </li>
+            <li data-icon="⚠">
+              Unable to debug alone when something doesn't work
+            </li>
+            <li data-icon="⚠">
+              Dependent on a framework for the simplest interaction
+            </li>
+            <li data-icon="⚠">
+              No understanding of the DOM, events, or native CSS
+            </li>
+            <li data-icon="⚠">
+              Illusion of skill — works until the first complex bug
+            </li>
+          </ul>
+        </div>
+        <div class="versus-card">
+          <div class="versus-head good">✓ The Real Dev</div>
+          <ul class="check-list">
+            <li data-icon="→">
+              Understands what every line does and why it's there
+            </li>
+            <li data-icon="→">
+              Masters the DOM, events, and CSS layout to the core
+            </li>
+            <li data-icon="→">Can debug any problem with DevTools</li>
+            <li data-icon="→">
+              Uses AI as an assistant, not a brain replacement
+            </li>
+            <li data-icon="→">
+              Builds solid solutions without unnecessary dependencies
+            </li>
+            <li data-icon="→">
+              Solid foundations let you learn any framework in days
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <div class="divider"></div>
+
+    <section class="section">
+      <div class="reveal">
+        <p class="section-label">02 — Why this challenge helps</p>
+        <h2 class="section-title">What you'll<br />actually learn</h2>
+      </div>
+      <div class="benefits-grid reveal">
+        <div class="benefit-card">
+          <div class="benefit-num">01</div>
+          <div class="benefit-title">DOM Mastery</div>
+          <div class="benefit-desc">
+            Manipulating the DOM by hand means understanding what React does for
+            you. You become 10× better with frameworks once you can write
+            without them.
+          </div>
+        </div>
+        <div class="benefit-card">
+          <div class="benefit-num">02</div>
+          <div class="benefit-title">Deep CSS</div>
+          <div class="benefit-desc">
+            Flexbox, Grid, animations, custom properties — written without
+            Tailwind, you understand the true cascade and can style anything
+            without Stack Overflow.
+          </div>
+        </div>
+        <div class="benefit-card">
+          <div class="benefit-num">03</div>
+          <div class="benefit-title">Pure JavaScript</div>
+          <div class="benefit-desc">
+            Closures, Promises, Fetch API, event loop, prototypes — concepts
+            juniors avoid but seniors understand instinctively.
+          </div>
+        </div>
+        <div class="benefit-card">
+          <div class="benefit-num">04</div>
+          <div class="benefit-title">Problem Solving</div>
+          <div class="benefit-desc">
+            100 projects = 100 problems. Without AI chewing the work, your brain
+            develops a real problem-solving muscle that no shortcut can build.
+          </div>
+        </div>
+        <div class="benefit-card">
+          <div class="benefit-num">05</div>
+          <div class="benefit-title">Solid Portfolio</div>
+          <div class="benefit-desc">
+            100 documented projects on GitHub is irrefutable proof of mastery.
+            No recruiter can ignore it in a technical interview.
+          </div>
+        </div>
+        <div class="benefit-card">
+          <div class="benefit-num">06</div>
+          <div class="benefit-title">Consistency</div>
+          <div class="benefit-desc">
+            50 days of daily practice. Consistency beats talent. This challenge
+            builds discipline few devs have the courage to sustain.
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="divider"></div>
+
+    <section class="section">
+      <div class="reveal">
+        <p class="section-label">03 — The tools</p>
+        <h2 class="section-title">The holy trinity<br />of the web</h2>
+      </div>
+      <div class="stack-row reveal">
+        <div class="stack-item">
+          <span class="stack-icon"></span>
+          <div class="stack-name">HTML5</div>
+          <div class="stack-desc">
+            Semantics, accessibility, structure. The foundation everything is
+            built on.
+          </div>
+        </div>
+        <div class="stack-item">
+          <span class="stack-icon"></span>
+          <div class="stack-name">CSS3</div>
+          <div class="stack-desc">
+            Flexbox, Grid, animations, custom properties. Without a framework,
+            the true power reveals itself.
+          </div>
+        </div>
+        <div class="stack-item">
+          <span class="stack-icon"></span>
+          <div class="stack-name">JavaScript</div>
+          <div class="stack-desc">
+            ES6+, DOM API, Fetch, async/await. Vanilla — understanding the
+            language itself is non-negotiable.
+          </div>
+        </div>
+        <div class="stack-item">
+          <span class="stack-icon"></span>
+          <div class="stack-name">DevTools</div>
+          <div class="stack-desc">
+            Console, debugger, network tab. A real dev's tools, not a Copilot to
+            hide errors behind.
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="divider"></div>
+
+    <section class="section" id="projects">
+      <div class="projects-header reveal">
+        <div>
+          <p class="section-label">04 — The projects</p>
+          <h2 class="section-title no-mb">100 Projects</h2>
+        </div>
+        <div class="progress-wrap">
+          <div class="progress-label">
+            <span>Progress</span>
+            <span id="prog-count">0 / 100</span>
+          </div>
+          <div class="progress-track">
+            <div class="progress-fill" id="prog-fill"></div>
+          </div>
+        </div>
+      </div>
+      <div class="projects-grid reveal" id="projects-grid"></div>
+    </section>
+
+    <div class="divider"></div>
+
+    <section class="section" id="timeline">
+      <div class="reveal">
+        <p class="section-label">05 — The roadmap</p>
+        <h2 class="section-title">50 Days,<br />10 Milestones</h2>
+      </div>
+      <div class="timeline reveal" id="timeline-grid"></div>
+    </section>
+
+    <div class="divider"></div>
+
+    <section class="section" id="faq">
+      <div class="reveal">
+        <p class="section-label">// 06 — Frequently asked</p>
+        <h2 class="section-title">Questions &<br />Answers</h2>
+      </div>
+      <div class="faq-grid reveal" id="faq-grid"></div>
+    </section>
+
+    <div class="divider"></div>
+
+    <section class="section about-section" id="about">
+      <div class="about-inner">
+        <div class="reveal">
+          <p class="section-label">07 — Who am I</p>
+          <h2 class="about-name">Félix<br /><em>Warano</em></h2>
+          <div class="about-bio">
+            <p>
+              I'm a <strong>FullStack JavaScript developer</strong>, passionate
+              about native web and fundamentals that outlast trends. I've seen
+              too many juniors get lost in abstractions without ever
+              understanding what's happening underneath.
+            </p>
+            <p>
+              This challenge is my way of
+              <strong>proving by example</strong> that fundamentals are enough
+              to build anything — and creating a free resource for everyone who
+              wants to <span class="hi">really</span> learn.
+            </p>
+            <p>
+              100 projects. 50 days. Zero cheating. Every project is documented
+              with resources to go further. Open source, forever.
+            </p>
+          </div>
+          <div class="about-links">
+            <a
+              href="https://felix-warano.vercel.app"
+              target="_blank"
+              rel="noopener"
+              class="btn btn-ghost"
+              >↗ Felix-warano.dev</a
+            >
+            <a
+              href="https://github.com/warano02"
+              target="_blank"
+              rel="noopener"
+              class="btn btn-ghost"
+              >☆ GitHub</a
+            >
+          </div>
+        </div>
+
+        <div class="reveal">
+          <div class="rules-wrap">
+            <div class="rules-label">// Challenge rules</div>
+            <div class="terminal mini">
+              <div class="term-bar">
+                <div class="dot dr"></div>
+                <div class="dot dy"></div>
+                <div class="dot dg"></div>
+                <span class="term-ttl">rules.md</span>
+              </div>
+              <div class="term-body">
+                <div class="tl">
+                  <span class="tp">$</span><span class="tm">cat rules.md</span>
+                </div>
+                <div class="tl mt-gap">
+                  <span class="tw">[1] Vanilla JS only</span>
+                </div>
+                <div class="tl">
+                  <span class="tc dim"> no React, Vue, Angular, Svelte</span>
+                </div>
+                <div class="tl mt-gap">
+                  <span class="tw">[2] Native HTML + CSS</span>
+                </div>
+                <div class="tl">
+                  <span class="tc dim"> no Tailwind, no Bootstrap</span>
+                </div>
+                <div class="tl mt-gap">
+                  <span class="tw">[3] Zero AI for code</span>
+                </div>
+                <div class="tl">
+                  <span class="tc dim"> AI doesn't touch the source code</span>
+                </div>
+                <div class="tl mt-gap">
+                  <span class="tw">[4] README per project</span>
+                </div>
+                <div class="tl">
+                  <span class="tc dim"> MDN resources + explanatory links</span>
+                </div>
+              </div>
+            </div>
+            <div class="rules-hints">
+              <div>⭐ Star the repo to follow progress</div>
+              <div>🔔 Watch → releases for new projects</div>
+              <div>🍴 Fork and start your own challenge</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="footer-left">
+        <strong>100 Projects · 50 Days</strong> — Vanilla JS Challenge<br />
+        © 2026 <strong>Warano</strong> ·
+        <a href="https://felix-warano.vercel.app" target="_blank" rel="noopener"
+          >Felix-warano.dev</a
+        >
+        &nbsp;·&nbsp; Built with HTML, CSS &amp; JS. No frameworks. No irony.
+      </div>
+      <div class="footer-right">
+        <a href="https://felix-warano.vercel.app" target="_blank" rel="noopener"
+          >Portfolio ↗</a
+        >
+        <a href="https://github.com/warano02" target="_blank" rel="noopener">GitHub</a>
+        <a href="#top" class="footer-top">↑ Top</a>
+      </div>
+    </footer>
+
+    <script src="main.js"></script>
+  </body>
+</html>
