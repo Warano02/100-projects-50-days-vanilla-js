@@ -1,6 +1,6 @@
 const projects = [
-    { id: 1, name: "Digital Clock", tag: "Date API", done: true, url: "#" },
-    { id: 2, name: "Countdown Timer", tag: "setInterval", done: true, url: "#" },
+    { id: 1, name: "Password strenght meter", tag: "RegExp", done: true, url: "./02-password-strength-meter" },
+    { id: 2, name: "Countdown Timer", tag: "setInterval", done: true, url: "./01-countdown-timer" },
     { id: 3, name: "To-Do List", tag: "LocalStorage", done: false, url: null },
     { id: 4, name: "Calculator", tag: "Math", done: false, url: null },
     { id: 5, name: "Color Generator", tag: "CSS vars", done: false, url: null },
