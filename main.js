@@ -1,8 +1,8 @@
 const projects = [
     { id: 1, name: "Password strenght meter", tag: "RegExp", done: true, url: "./02-password-strength-meter" },
     { id: 2, name: "Countdown Timer", tag: "setInterval", done: true, url: "./01-countdown-timer" },
-    { id: 3, name: "To-Do List", tag: "LocalStorage", done: false, url: null },
-    { id: 4, name: "Calculator", tag: "Math", done: false, url: null },
+    { id: 3, name: "To-Do List", tag: "LocalStorage", done: true, url: "./03-todo-app" },
+    { id: 4, name: "Calculator", tag: "Math", done: true, url: "./04-Calculator" },
     { id: 5, name: "Color Generator", tag: "CSS vars", done: false, url: null },
     { id: 6, name: "Quiz App", tag: "Array / JSON", done: false, url: null },
     { id: 7, name: "Weather App", tag: "Fetch API", done: false, url: null },
